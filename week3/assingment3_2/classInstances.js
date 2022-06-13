@@ -10,7 +10,6 @@ module.exports = class Instances{
         else {
             return `${num} IS NOT A MULTIPLE OF THREE`
         }
-
     }
 
     multiplesOfSeven = (num) => {
@@ -30,6 +29,7 @@ module.exports = class Instances{
             return `${num} IS NOT A MULTIPLE OF THREE AND SEVEN`
         }
     }
+
     notMultipleOfThreeAndSeven = (num) => {
         if (num % 3 !== 0 &  num %  7 !== 0) {
             return String(num)
@@ -39,19 +39,12 @@ module.exports = class Instances{
         }
     }
 
-
-
     nonNumber = (arg) => {
         if (isNaN(arg)) {
-            return `ERROR !!!! ${arg} is not a number`
+               return `ERROR !!!! ${arg} is not a number`
         }
         else{
-            return arg
+          return arg
         }
     }
-
 }
-    
-
-
-    

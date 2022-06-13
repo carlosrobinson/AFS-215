@@ -20,7 +20,7 @@ console.log(`\n`)
 
 
 console.log("** Second Instance**")
-console.log(`multiple of three: ${message2.multiplesOfThree(6)}`)
+console.log(`multiple of three: ${message2.multiplesOfThree(4)}`)
 console.log(`not a multiple of three: ${message2.multiplesOfThree(14)}`)
 console.log(`multiple of Seven: ${message2.multiplesOfSeven(35)}`)
 console.log(`not a multiple of Seven: ${message2.multiplesOfSeven(9)}`)
